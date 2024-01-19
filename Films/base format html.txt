@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="action.css">
+</head>
+<body>
+    <div class="background-image">
+        <img src="../../../prpic1HR.jpg" alt="Background Image">
+    </div>
+    <!-- Film Cards Container -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Film Card 1 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png" >
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text"></p>
+                        </div>
+                    <a href=""><h3 class="card-title"></h3></a>
+            <!-- Film Card 2 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png" >
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text">
+                    </div>
+                </div>
+            </div>
+            <!-- Film Card 3 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png" alt=>
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other films -->
+            <!-- Film Card 4 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png" >
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Film Card 5 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png" >
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Film Card 6 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png">
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Film Card 7 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png" >
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Film Card 8 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png" alt=>
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Film Card 9 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png" alt=>
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Film Card 10 -->
+            <div class="col-lg-4">
+                <div class="card film-card">
+                    <img class="card-img-top film-image" src="film_nameHR.png">
+                    <div class="card-body ratings-overlay">
+                        <div class="film-info text-white">
+                            <a href=""><h3 class="card-title"></h3></a>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap JavaScript plugins) -->
+</body>
+</html>
