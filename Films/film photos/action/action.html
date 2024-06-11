@@ -11,9 +11,13 @@
     <div class="background-image">
         <img src="../../../prpic1HR.jpg" alt="Background Image">
     </div>
+    <!-- Search Bar -->
+    <div class="container mt-4">
+        <input type="text" id="search-bar" class="form-control" placeholder="Search for a film...">
+    </div>
     <!-- Film Cards Container -->
     <div class="container mt-4">
-        <div class="row">
+        <div class="row" id="film-cards-container">
             <!-- Film Card 1 -->
             <div class="col-lg-4">
                 <div class="card film-card">
@@ -136,5 +140,21 @@
             </div>
         </div>
     </div>
+    
+    <script>
+        document.getElementById('search-bar').addEventListener('input', function() {
+            let searchQuery = this.value.toLowerCase();
+            let filmCards = document.querySelectorAll('.film-card');
+
+            filmCards.forEach(function(card) {
+                let filmTitle = card.querySelector('.card-title').textContent.toLowerCase();
+                if (filmTitle.includes(searchQuery)) {
+                    card.parentElement.style.display = 'block';
+                } else {
+                    card.parentElement.style.display = 'none';
+                }
+            });
+        });
+    </script>
 </body>
 </html>

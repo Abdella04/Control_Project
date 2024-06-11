@@ -49,6 +49,35 @@
         .contact-info p {
             margin-bottom: 8px;
         }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
@@ -70,7 +99,7 @@
             <p>Téléphone : +212770151471</p>
         </div>
 
-        <form action="#" method="post">
+        <form id="supportForm" action="#" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -83,6 +112,24 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+
+    <script>
+        document.getElementById('supportForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (name === '' || email === '' || message === '') {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            alert('Thank you for contacting us, ' + name + '!');
+            document.getElementById('supportForm').reset(); // Clear the form
+        });
+    </script>
 
 </body>
 </html>
